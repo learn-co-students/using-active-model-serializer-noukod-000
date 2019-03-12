@@ -15,6 +15,7 @@ class PostsController < ApplicationController
       # render json: @post, status: 200
   end
 
+  
   def new
     @post = Post.new
   end

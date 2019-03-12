@@ -4,3 +4,5 @@ class AuthorsController < ApplicationController
     render json: @author, status: 200
   end
 end
+
+
